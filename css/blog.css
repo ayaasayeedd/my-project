@@ -1,0 +1,146 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+
+
+}
+
+.nav_bar {
+    background-color: rgb(94, 92, 92);
+    margin: auto;
+    width: 100%;
+    padding: 15px 150px;
+    text-align: right;
+
+}
+
+.nav_bar a {
+    color: aliceblue;
+    font-size: 15px;
+    padding-right: 10px;
+
+
+
+}
+
+header {
+    width: 100%;
+    padding: 20px 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: gray;
+
+}
+
+span {
+    color: black;
+    font-size: small;
+
+}
+
+.logo {
+    visibility: hidden;
+}
+
+.navigation a {
+    text-transform: uppercase;
+    color: rgb(252, 248, 248);
+    font-size: small;
+    padding: 22px;
+
+}
+
+.fournav {
+    background-color: tomato;
+}
+
+.top {
+    display: flex;
+    padding: 15px;
+    background-color: tomato;
+    width: 100%;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+}
+
+.contact {
+    text-align: center;
+    padding: 50px;
+    background-color: rgb(222, 222, 240);
+    width: 100%;
+}
+
+.cont {
+    margin: auto 80px;
+    color: rgb(91, 88, 88);
+}
+
+
+.main{
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    padding: 2%;
+    color: grey;
+}
+.Rightside{
+    padding: 5%;
+    font-weight: 600;
+}
+.left span{
+
+    color: rgba(196, 168, 168, 0.632); 
+}
+
+.button{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    width: 75%;
+    padding: 2%;
+    color: grey;
+}
+.btn{
+    width: 150px;
+    height: 30px;
+    background:rgb(39, 39, 39) ;
+    font-weight: bold;
+    font-size: 15px;
+    border: none;
+}
+.btn a{
+    color: white;
+    text-decoration: none;
+}
+
+
+section .center{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    width: 100%;
+}
+.footer{
+    background-color: rgb(94, 92, 92);
+    margin: auto;
+    width:100%;
+    padding: 15px 200px;
+    text-align: center;
+    justify-content: space-between;
+
+
+}
+.footer a{
+    color: aliceblue;
+    font-size:20px;
+    padding-right: 20px;
+    border-radius:50%;
+
+}
+
+fieldset{
+  font-size: larger;
+    margin: 15px;
+    padding: 5px;
+}

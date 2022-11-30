@@ -1,0 +1,176 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+
+
+}
+
+.nav_bar {
+    background-color: rgb(94, 92, 92);
+    margin: auto;
+    width: 100%;
+    padding: 15px 150px;
+    text-align: right;
+
+}
+
+.nav_bar a {
+    color: aliceblue;
+    font-size: 15px;
+    padding-right: 10px;
+
+
+
+}
+
+header {
+    width: 100%;
+    padding: 20px 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: gray;
+
+}
+
+span {
+    color: black;
+    font-size: small;
+
+}
+
+.logo {
+    visibility: hidden;
+}
+
+.navigation a {
+    text-transform: uppercase;
+    color: rgb(252, 248, 248);
+    font-size: small;
+    padding: 22px;
+
+}
+
+.fournav {
+    background-color: tomato;
+}
+
+.top {
+    display: flex;
+    padding: 15px;
+    background-color: tomato;
+    width: 100%;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+}
+
+.contact {
+    text-align: center;
+    padding: 50px;
+    background-color: rgb(222, 222, 240);
+    width: 100%;
+}
+
+.cont {
+    margin: auto 80px;
+    color: rgb(91, 88, 88);
+}
+
+/* cards */
+.column {
+    padding: 0 30px;
+    margin-top: 50px;
+    width: 24%;
+    display: inline-block;
+    margin-bottom: 20px;
+    display: inline-flexbox;
+}
+
+/* Style cards */
+.card {
+    padding: 20px 0px 0px 0px;
+    text-align: center;
+    background-color: #f1f1f1;
+    border:1px solid rgb(167, 167, 167);
+}
+
+/* Second child in card */
+.childtwo {
+    background-color: #d8d8d8;
+    color: rgb(230, 59, 59);
+    /* opacity: 0.1; */
+    padding: 7px 0px 0px 0px;
+    font-size: 50px;
+}
+
+#month {
+    color: rgb(230, 59, 59);
+}
+
+p {
+    padding: 10px;
+}
+
+h3 {
+    padding: 10px;
+}
+
+/* buttun in card */
+.btn {
+    background-color: #2d303d;
+    color: white;
+    padding: 12px;
+    width: 100%;
+    font-size: 15px;
+}
+
+/* sidebar */
+.sidebar {
+    width: 26%;
+    display: inline-block;
+}
+/* Style sidebar */
+.bar {
+    padding: 20px;
+    margin: 20px;
+    text-align: start;
+    font-size: large;
+    margin: 50px;
+}
+.x {
+    border-bottom: dotted;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    padding: 5px;
+}
+.text {
+    font-size: larger;
+    color: red;
+}
+.nnn{
+    margin-top: -32px;
+    margin-bottom: 400px;
+    padding-left: 574px;
+}
+/* footer */
+.footer{
+    background-color: rgb(94, 92, 92);
+    margin: auto;
+    width:100%;
+    padding: 15px 200px;
+    text-align: center;
+    justify-content: space-between;
+
+
+}
+.footer a{
+    color: aliceblue;
+    font-size:20px;
+    padding-right: 20px;
+    border-radius:50%;
+
+}

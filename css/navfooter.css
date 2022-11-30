@@ -1,0 +1,87 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+text-decoration: none;
+
+}
+
+/* nav1 */
+.nav_bar{
+    background-color: rgb(94, 92, 92);
+    margin: auto;
+    width:100%;
+    padding: 7px 150px;
+    text-align: right;
+    
+}
+.nav_bar a{
+    color: aliceblue;
+    font-size:15px;
+    padding-right: 10px;
+    
+ 
+
+}
+/* nav2 */
+header{
+    width: 100%;
+    padding: 15px 150px;
+  position: fixed;
+  z-index: 1;
+  
+  display: flex;
+  justify-content:space-between;
+align-items: center;
+background-color: gray;
+
+}
+.logo{
+    color: rgb(255, 255, 255);
+text-transform: uppercase;
+font-size: 20px;
+
+
+
+}
+.navigation a{
+    text-transform: uppercase;
+    color:rgb(252, 248, 248) ;
+    font-size: small;
+    padding:24px;
+    
+}
+.firstnav{
+    background-color: tomato;
+    }
+.lorem{
+color: aliceblue;
+font-size: larger;
+padding: 50px;
+margin: 50px;
+
+}
+span{
+    font-size:xx-large;
+    font-weight: bolder;
+}
+/* footar */
+
+.footer{
+    background-color: rgb(94, 92, 92);
+    margin: auto;
+    width: 100%;
+    padding: 10px 200px;
+    text-align: center;
+
+
+}
+.footer a{
+    color: aliceblue;
+    font-size:20px;
+    padding-right: 20px;
+    border-radius:50%;
+    text-align: center;
+
+}
